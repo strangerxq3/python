@@ -1,0 +1,301 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'General Sans';
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+.main{
+    width: 100%;
+    /* height: 100vh; */
+}
+.primary-content{
+    height: auto;
+    width: 100vw;
+    color: #fff;
+    margin-bottom: 40vh;
+}
+.nav{
+    color: #fff;
+    /* background-color: #746e6e; */
+    padding: 4vmin 7vmin;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 2.5vmin;
+}
+.nav a {
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 900;
+}
+.heading{
+    margin-top: 12vmin;
+    /* background: red; */
+    /* width: 100%; */
+    text-transform: uppercase;
+}
+.heading h1{
+    font-family: 'General Sans Medium';
+    font-size: 9.6vmax;
+    opacity: .65;
+    margin-left: 3vw;
+    margin-bottom: 0;
+    line-height: 0.9;
+    font-weight: 500;
+}
+.heading .h2{
+    margin-left: 30vmin;
+}
+.boxtext{
+    width: fit-content;
+}
+.boxtext h5{
+    margin-top: wvh;
+    opacity: 1;
+    text-align: right;
+    font-size: 2vmin;
+    font-family: 'General Sans Medium';
+}
+.small-heading{
+    padding-right: 2vw;
+    margin-top: 20vh;
+}
+.small-heading h5{
+    text-align: right;
+    font-size: 2vmin;
+    text-transform: uppercase;
+    margin-top: 1vw;
+}
+.primary-footer{
+    padding: 0 2vw;
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 300vh; */
+}
+.primary-footer a{
+    /* display: flex;
+    justify-content: space-evenly; */
+    /* width: 1000vmax; */
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2vmin;
+}
+.iconset{
+    display: flex;
+    gap: 0.9vw;
+}
+.iconset div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(170, 170, 170);
+    color: #000;
+    width: 3.5vh;
+    height: 3.5vh;
+    border-radius: 50%;
+}
+.iconset div i{
+    font-size: 2vh;
+}
+.a2{
+    margin-right: 25vmin;
+    margin-left: 10vmin ;
+}
+
+/* ---- Secondary-Content CSS ---- */
+
+.secondary-content{
+    padding-top: 3vw;
+    padding-left: 3vw;
+    padding-right: 10vw;
+    width: 100%;
+    height: auto;
+    background: #000;
+    color: rgb(160,160,160);
+}
+.elements{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding: 2.22vw 3vw 3.26vw 0vw;
+    width: 100%;
+    border-top: 1px solid #e5e7eb;
+}
+.elements span{
+    font-size: 7.89vw;
+    font-weight: 500;
+}
+.elements p{
+    font-size: .875rem;
+    color: #fff;
+}
+.elemlast{
+    border-bottom: 1px solid #e5e7eb;
+}
+.elements img{
+    display: none;
+    position: absolute;
+    height: 24.23vw;
+    width: 32.08vw;
+    z-index: 999;
+}
+.third-section{
+    width: 100%;
+    height: auto;
+}
+.about{
+    margin-top: 12rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 12rem;
+}
+
+.Top{
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5rem
+    /* padding-left: 20vw; */
+}
+.Top .image{
+    /* width: 235px; */
+    width: 15rem;
+    /* max-width: 100% */
+}
+.image img{
+    object-position: top;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.text{
+    width: 35vw;
+    margin-left: 2.5rem;
+    margin-right: 0;
+}
+.text a{
+
+    border: 1px solid #fff;
+    border-radius: 9999px;
+    color: #fff;
+    display: block;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    margin-top: 18px;
+    padding: .55rem 1.25rem;
+    width: fit-content;
+}
+.about-text{
+    width: 90%;
+}
+.about-text span {
+    font-size: .870rem;
+    color: #a3a3a3;
+    font-weight: 500;
+    line-height: 1rem;
+    text-transform: uppercase;
+}
+.about-text p{
+    letter-spacing: 0.01em;
+    font-size: 1.225rem;
+    line-height: 1.75rem;
+    color: #fff;
+    /* padding-right: 10vw; */
+}
+.follow{
+    margin-top: 10.9vw;
+    width: fit-content;
+    padding-left: 2vw ;
+}
+.follow p{
+    color: #a3a3a3;
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    /* font-weight: 500; */
+}
+.follow a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+.follow a span{
+    line-height: 34px;
+
+}
+
+/*  ---- Footer CSS ---- */
+
+.footer{
+    padding-bottom: 1.3vw;
+    padding-left: 2.78vw;
+    padding-right: 2.78vw;
+}
+.footer-cantainer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    /* background-color: red; */
+}
+ .left {
+    display: flex;
+    align-items: center;
+    /* padding: 1rem; */
+}
+
+.date{
+    display: block;
+    line-height: 1.75rem;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    letter-spacing: -1px;
+    font-weight: 500;
+}.date .c{
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+.time{
+    margin-left: 2rem;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0;
+}
+.rigth ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    list-style-type: none;
+}
+.rigth ul .li{
+    margin-left: 3rem;
+    margin-right: 0;
+}
+.rigth ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
